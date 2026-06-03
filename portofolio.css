@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(38, 60, 61);
+    height: 100vh;
+}
+
+.header {
+    background-color: rgb(25, 46, 46);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header ul {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: rgb(177, 5, 28);
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+
+.header ul li a:hover {
+    color: rgb(235, 110, 7);
+    transform: translateY();
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+footer {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgb(34, 65, 65);
+}
+
+.footer_box {
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+
+.footer{
+
+}
+
+.footer_box h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(230, 12, 12);
+    
+}
+
+.body-content{
+    height: calc(100vh - 100px);
+    background-image:
+    background-size: cover;
+}
+
+
+
+h2{
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+label{
+    font-style: oblique;
+    text-decoration: none;
+    border: none;
+    
+}
+ 
+
+    
+
+input{
+    
+    padding: 14px;
+    background: #f4f4f4;
+    font-style: italic;
+    width: 90%;
+    border: none ;
+    outline: none;
+    font-size: 16px;
+
+    
+}
+
+a{
+    text-decoration: none;
+    color: #0bdd27;
+    border: none;
+    
+}
+
+
+button{
+   width: 90%; 
+   height: 30px;
+   background-color: #06db23;
+   border-radius: 10px;
+   text-decoration: none;
+   border: none;
+   transition: 0.5s;
+   
+   
+}
+
+button:hover{
+    transform: translate(10px);
+}
+
+p{
+    text-align: left;
+    border: none;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    
+}
+
+.or_remember{
+    display: flex;
+    white-space: nowrap;
+}
+.check{
+    
+}
+
+.or_link{
+    
+}
+
+span{display: flex;
+}
+
+
+
+    span input{
+        height: 10px;
+    }
+
+
+    .social{
+        display: flex;
+        gap: 20px;
+        padding: 0 30px;
+    }
+
+i{
+    margin-top: 20px;
+    font-size: 30px;
+    color: aqua;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: float 3s ease-in-out infinite;
+
+}
+ @keyframes float{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+ }
+i:hover{
+    opacity: 0.3;
+    transform: translateX(10px);
+
+
+}
+
+
